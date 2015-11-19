@@ -1,0 +1,3 @@
+[submodule "data/ansible/roles/mychiara.common"]
+	path = data/ansible/roles/mychiara.common
+	url = git@github.com:mychiara/ansible-role-common.git
