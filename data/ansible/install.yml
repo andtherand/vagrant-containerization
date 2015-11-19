@@ -1,0 +1,10 @@
+---
+- name: provision-vagrant-box
+  hosts: all
+  remote_user: root
+  sudo: yes
+  roles:
+    - role: mychiara.common
+    - role: franklinkim.docker
+    - role: franklinkim.docker-compose
+    - role: mychiara.ohmyzsh
