@@ -1,0 +1,10 @@
+---
+_ohmyzsh_plugins:
+  - 'docker'
+  - 'git'
+  - 'docker-compose'
+
+mychiara_ohmyzsh_users:
+  - user: root
+    theme: robbyrussell
+    plugins: "{{ _ohmyzsh_plugins }}"
